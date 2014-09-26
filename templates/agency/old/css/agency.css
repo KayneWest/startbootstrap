@@ -119,14 +119,14 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #FF0000;
+    border-color: #fed136;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #FF0000;
+    background-color: #fed136;
 }
 
 .btn-xl:hover,
@@ -134,9 +134,9 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #FF0000;
+    border-color: #f6bf01;
     color: #fff;
-    background-color: #FF0000;
+    background-color: #fec503;
 }
 
 .btn-xl:active,
@@ -175,10 +175,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: 'Chau Philomene One', sans-serif;
+    font-family: 'Orbitron', sans-serif;
     color: #FF0000;
-    font-style: italic;
-
 }
 
 font-family: 'Orbitron', sans-serif;
@@ -265,11 +263,12 @@ font-family: 'Orbitron', sans-serif;
     }
 }
 
+
 header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(https://cloud.githubusercontent.com/assets/7051940/4266005/0ac7b734-3c6b-11e4-84c3-6fe35f9fb43c.jpg);
+    background-image: url(../img/header-bg.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -306,6 +305,14 @@ header .intro-text .intro-heading {
         padding-bottom: 200px;
     }
 
+    header .intro-text .intro-lead-in {
+        margin-bottom: 25px;
+        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 40px;
+        font-style: italic;
+        line-height: 40px;
+    }
+
     header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
@@ -320,22 +327,11 @@ section {
     padding: 100px 0;
 }
 
-section h9.section-heading {
+section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 40px;
 }
-
-section h2.section-heading {
-    margin-bottom: 25px;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 50px;
-    font-weight: 700;
-    line-height: 50px;
-}
-
-
 
 section h3.section-subheading {
     margin-bottom: 75px;
@@ -361,22 +357,6 @@ section h3.section-subheading {
     right: 0;
     margin: 0 0 15px;
 }
-
-#portfolio .portfolio-item {
-    right: 0;
-    margin: 0 0 15px;
-} 
-
-#portfolio .sect-heading{
-    
-    margin-bottom: 100px;
-    margin-top: 2px;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 500;
-    font-size: 72px;
-} 
-
 
 #portfolio .portfolio-item .portfolio-link {
     display: block;
@@ -670,14 +650,6 @@ section h3.section-subheading {
     margin-top: 0;
 }
 
-.team-member .closing-text {
-    font-size: 75px;
-    font-weight: 700;
-    line-height: 75px;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-}
-
-
 aside.clients img {
     margin: 50px auto;
 }
@@ -691,12 +663,7 @@ section#contact {
 
 section#contact .section-heading {
     color: #fff;
-    font-size: 100px;
-    font-weight: 700;
-    line-height: 75px;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-
 
 section#contact .form-group {
     margin-bottom: 25px;

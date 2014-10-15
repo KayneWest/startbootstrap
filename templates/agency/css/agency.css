@@ -826,7 +826,7 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Press Start 2P", cursive;
     font-size: 16px;
     font-style: italic;
 }
@@ -875,33 +875,33 @@ ul.social-buttons li a:active {
     transform: rotate(90deg);
 }
 
-.modal .modal-content .modal-title {
+.subcriptionmodal .modal-content .modal-title {
     text-align: center;
     margin-bottom: 15px;
 }
 
-.modal .modal-content p {
+.subcriptionmodal .modal-content p {
     text-align: center;
     font-family: 'Gloria Hallelujah', cursive;
     font-size: 20px;
 }
 
-.modal .form-horizontal .col-sm-2 {
+.subcriptionmodal .form-horizontal .col-sm-2 {
     text-align: center;
     font-family: 'Gloria Hallelujah', cursive;
 }
 
-.modal .form-horizontal .col-sm-offset-2 {
+.subcriptionmodal .form-horizontal .col-sm-offset-2 {
     font-family: 'Gloria Hallelujah', cursive;
 }
 
 
-.modal .form-horizontal .col-sm-offset-2 {
+.subcriptionmodal .form-horizontal .col-sm-offset-2 {
     font-family: 'Gloria Hallelujah', cursive;
 }
 
 
-.modal .modal-footer .btn {
+.subcriptionmodal .modal-footer .btn {
     font-family: 'Gloria Hallelujah', cursive;
 }
 
